@@ -1,2 +1,2 @@
-# GoogleMeetBot
-Google Meet Bot that can Interact with users!
+# How to use
+Open Developer Tools and go to Console and paste the code and click the Enter key!
