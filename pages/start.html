@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../assets/favicon.png">
+    <title>Using Meet.js</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="/">
+                <img src="../assets/bot.png" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
+                <span>Meet.js</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./library.html">Library</a>
+                    </li>
+                </ul>
+                <div class="d-flex ml-auto" id="headerlogin">
+                    <li class="nav-item" style="list-style: none;">
+                        <a class="nav-link btn btn-outline-secondary login" href="#/">Start (current)</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="jumbotron text-center bg-transparent">
+        <h1 class="commandstitle">Start</h1>
+        <p class="lead commandssub">Instructions to use and code Meet.js scripts for your Google Meet.</p>
+        <br>
+        <hr>
+        <div class="border"></div>
+      <br>
+        <br>
+        <br>
+        <br>
+        <div id="myCmd">
+            <br>
+            <button type="button" class="collapsible">Step 1<span> - Get the Meet.js code</span></button>
+            <div class="content">
+                <p>Get the code from <a href="../meetjs/code.js">here</a> press CTRL+A and CTRL+C to copy the code.</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">Step 2<span> - Make your own commands and prefix</span></button>
+            <div class="content">
+                <p>Open your notepad/text editing software and paste the code in using CTRL+V and make a new line of code below the ping command code with: <br><br>case "Command Trigger Here": <br>chatbot.sendMessage("Message Here"); <br>break;<br><br> You can keep doing that over and over with your responses. <br>You may edit the prefix to a symbol or string like "ex!" or "!" to make it "ex!commandtrigger" or "!commandtrigger"</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">Step 3<span> - Run</span></button>
+            <div class="content">
+                <p>Open a new tab with the url meet.google.com and create a new meeting.<br>Open up your console by pressing CTRL+SHIFT+i and clicking the Console.<br>Then paste the code you just made into the console and click the enter key.<br>Your script is now up and running so now you can say your command and it will respond instantly.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="mastfoot mb-auto">
+            <div class="container-fluid mb-auto">
+                <div class="row d-flex justify-content-center">
+                    <div class="">
+                        <p style="font-size: 19px; padding: 0px; margin: 0px;"><a href="https://www.meetjs.gq"
+                                style="text-decoration: none; color: white;">Made with 💖 by the Meet.js Team</a></br>Meet.js ©
+                            2021. All
+                            rights reserved.</br>[<a href="./license.html"><b>Terms Of Use</b></a>]</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
